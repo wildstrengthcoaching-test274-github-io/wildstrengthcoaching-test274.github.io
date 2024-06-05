@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Über mich"
+    url: /#about
+    blank: false
+  - title: "Coaching Angebote"
+    url: /#coaching
+    blank: false
+  - title: "Testimonials"
+    url: /#testimonials
+    blank: false
+  - title: "Kontakt & Erstgespräch"
+    url: /#contact
+    blank: false

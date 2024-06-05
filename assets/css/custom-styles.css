@@ -1,0 +1,17 @@
+:root {
+  --swiper-navigation-color: #222831;
+}
+
+.testimonial {
+    margin: 0 10vw 0 10vw;
+}
+
+@media screen and (max-width: 800px) {
+    .testimonial {
+        margin: 0 13vw 0 13vw;
+    }
+}
+
+.white-text {
+    color: white !important;
+}

@@ -22,17 +22,17 @@
      style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline" style="color: #ACD037">
+      <h1 id="page-title oswald" class="page__title" itemprop="headline" style="color: #ACD037">
         <br><br>
-        Das Wild Strength Coaching von Jan Wildner
+        Wild Strength Coaching
       </h1>
-      <p class="page__lead" style="text-decoration: underline; text-decoration-color: #ACD037; text-underline-offset: 6px;"><b>Be proud & be strong</b></p>
+      <p class="page__lead oswald" style="text-decoration: underline; text-decoration-color: #ACD037; text-underline-offset: 6px;"><b>Be proud & be strong</b></p>
       <p class="page__lead">Du hast bereits Kraft, aber willst wissen, wie weit du kommen kannst? Du willst neue Rekorde setzen? Ich begleite dich als Coach auf diesem Weg: Wir planen Trainings, analysieren deinen Progress und Bewegungsabläufe, damit deinen Zielen nichts mehr im Weg steht.</p>
       {% if page.header.actions %}
       <div style="text-align: center">
         <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" {% if action.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a href="{{ action.url | relative_url }}" class="oswald btn btn--light-outline btn--large" {% if action.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
       </div>
       {% endif %}

@@ -3,7 +3,7 @@ main:
   - title: "Über mich"
     url: /#about
     blank: false
-  - title: "Coaching Angebote"
+  - title: "Coaching"
     url: /#coaching
     blank: false
   - title: "Testimonials"
